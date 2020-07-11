@@ -53,6 +53,8 @@
         <Compile Include="Examples\Ex012.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Works\Exam001.cs" />
+        <Compile Include="Works\Exam002.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="App.config" />

@@ -1,4 +1,4 @@
-﻿using RoadBook.CsharpBasic.Chapter02.Examples;
+﻿using RoadBook.CsharpBasic.Chapter02.Works;
 
 namespace RoadBook.CsharpBasic.Chapter02
 {
@@ -39,8 +39,14 @@ namespace RoadBook.CsharpBasic.Chapter02
             // Ex011 ex011 = new Ex011();
             // ex011.Run();
             
-            Ex012 ex012 = new Ex012();
-            ex012.Run();
+            // Ex012 ex012 = new Ex012();
+            // ex012.Run();
+            
+            // Exam001 exam001 = new Exam001();
+            // exam001.Run();
+            
+            Exam002 exam002 = new Exam002();
+            exam002.Run();
         }
     }
 }
