@@ -1,4 +1,6 @@
-﻿namespace RoadBook.CsharpBasic.Chapter02
+﻿using RoadBook.CsharpBasic.Chapter02.Examples;
+
+namespace RoadBook.CsharpBasic.Chapter02
 {
     internal class Program
     {
@@ -16,8 +18,29 @@
             // Examples.Ex004 ex004 = new Examples.Ex004();
             // ex004.Run();
             
-            Examples.Ex005 ex005 = new Examples.Ex005();
-            ex005.Run();
+            // Examples.Ex005 ex005 = new Examples.Ex005();
+            // ex005.Run();
+
+            // Examples.Ex006 ex006 = new Examples.Ex006();
+            // ex006.Run();
+            
+            // Ex007 ex007 = new Ex007();
+            // ex007.Run();
+            
+            // Ex008 ex008 = new Ex008();
+            // ex008.Run();
+            
+            // Ex009 ex009 = new Ex009();
+            // ex009.Run();
+            
+            // Ex010 ex010 = new Ex010();
+            // ex010.Run();
+            
+            // Ex011 ex011 = new Ex011();
+            // ex011.Run();
+            
+            Ex012 ex012 = new Ex012();
+            ex012.Run();
         }
     }
 }
