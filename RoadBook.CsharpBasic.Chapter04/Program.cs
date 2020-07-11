@@ -1,4 +1,5 @@
 ﻿using RoadBook.CsharpBasic.Chapter04.Examples;
+using RoadBook.CsharpBasic.Chapter04.Works;
 
 namespace RoadBook.CsharpBasic.Chapter04
 {
@@ -6,8 +7,8 @@ namespace RoadBook.CsharpBasic.Chapter04
     {
         public static void Main(string[] args)
         {
-            Ex010 ex010 = new Ex010();
-            ex010.Run();
+            Exam002 exam002 = new Exam002();
+            exam002.Run();
         }
     }
 }
