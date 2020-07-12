@@ -53,6 +53,7 @@
         <Compile Include="Chapter06\QueueTests.cs" />
         <Compile Include="Chapter06\SplitTests.cs" />
         <Compile Include="Chapter06\StackTests.cs" />
+        <Compile Include="Chapter09\StudentLambda.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -63,6 +64,10 @@
       <ProjectReference Include="..\RoadBook.CsharpBasic.Chapter06\RoadBook.CsharpBasic.Chapter06.csproj">
         <Project>{3a7ca760-1508-4587-b53f-d1516afa0b4d}</Project>
         <Name>RoadBook.CsharpBasic.Chapter06</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\RoadBook.CsharpBasic.Chapter09\RoadBook.CsharpBasic.Chapter09.csproj">
+        <Project>{6c43cb13-8e54-49f1-a6ad-0fc70dceaec4}</Project>
+        <Name>RoadBook.CsharpBasic.Chapter09</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
