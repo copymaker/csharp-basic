@@ -4,11 +4,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{B34B9776-87ED-4C8E-80D6-3B10691C5B63}</ProjectGuid>
-        <OutputType>Exe</OutputType>
+        <ProjectGuid>{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}</ProjectGuid>
+        <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>RoadBook.CsharpBasic.Chapter05</RootNamespace>
-        <AssemblyName>RoadBook.CsharpBasic.Chapter05</AssemblyName>
+        <RootNamespace>RoadBook.CsharpBasic.Test</RootNamespace>
+        <AssemblyName>RoadBook.CsharpBasic.Test</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -36,13 +37,19 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
+        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+            <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Examples\Car.cs" />
-        <Compile Include="Examples\ElectronicCar.cs" />
-        <Compile Include="Examples\GasolineCar.cs" />
-        <Compile Include="Program.cs" />
+        <Compile Include="Chapter05\CarTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\RoadBook.CsharpBasic.Chapter05\RoadBook.CsharpBasic.Chapter05.csproj">
+        <Project>{b34b9776-87ed-4c8e-80d6-3b10691c5b63}</Project>
+        <Name>RoadBook.CsharpBasic.Chapter05</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

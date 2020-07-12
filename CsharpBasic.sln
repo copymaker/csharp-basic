@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Chapter05", "RoadBook.CsharpBasic.Chapter05\RoadBook.CsharpBasic.Chapter05.csproj", "{B34B9776-87ED-4C8E-80D6-3B10691C5B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBook.CsharpBasic.Test", "RoadBook.CsharpBasic.Test\RoadBook.CsharpBasic.Test.csproj", "{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B34B9776-87ED-4C8E-80D6-3B10691C5B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B34B9776-87ED-4C8E-80D6-3B10691C5B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B34B9776-87ED-4C8E-80D6-3B10691C5B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8944C1-07A2-4CD6-BA0B-E54DBE7C6985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
