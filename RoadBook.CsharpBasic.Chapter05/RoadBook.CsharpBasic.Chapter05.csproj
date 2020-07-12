@@ -41,6 +41,8 @@
         <Compile Include="Examples\Car.cs" />
         <Compile Include="Examples\ElectronicCar.cs" />
         <Compile Include="Examples\GasolineCar.cs" />
+        <Compile Include="Examples\Model\Board.cs" />
+        <Compile Include="Examples\Service\BoardService.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
