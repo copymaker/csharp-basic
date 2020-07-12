@@ -46,12 +46,23 @@
         <Compile Include="Chapter05\CalculatorTests.cs" />
         <Compile Include="Chapter05\CarTests.cs" />
         <Compile Include="Chapter05\RoadBankTests.cs" />
+        <Compile Include="Chapter06\ArrayListTests.cs" />
+        <Compile Include="Chapter06\ArrayTests.cs" />
+        <Compile Include="Chapter06\GenericStudent.cs" />
+        <Compile Include="Chapter06\HashTableTests.cs" />
+        <Compile Include="Chapter06\QueueTests.cs" />
+        <Compile Include="Chapter06\SplitTests.cs" />
+        <Compile Include="Chapter06\StackTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\RoadBook.CsharpBasic.Chapter05\RoadBook.CsharpBasic.Chapter05.csproj">
         <Project>{b34b9776-87ed-4c8e-80d6-3b10691c5b63}</Project>
         <Name>RoadBook.CsharpBasic.Chapter05</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\RoadBook.CsharpBasic.Chapter06\RoadBook.CsharpBasic.Chapter06.csproj">
+        <Project>{3a7ca760-1508-4587-b53f-d1516afa0b4d}</Project>
+        <Name>RoadBook.CsharpBasic.Chapter06</Name>
       </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
