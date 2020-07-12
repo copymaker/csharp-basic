@@ -4,7 +4,7 @@ namespace RoadBook.CsharpBasic.Chapter02.Examples
 {
     public class Ex011
     {
-        private int globalValue = 20;
+        private int _globalValue = 20;
 
         public void Run()
         {
@@ -13,17 +13,17 @@ namespace RoadBook.CsharpBasic.Chapter02.Examples
             Sum();
             Multiple();
             
-            Console.WriteLine("local: {0} / global: {1}", localValue, globalValue);
+            Console.WriteLine("local: {0} / global: {1}", localValue, _globalValue);
         }
         
         private void Sum()
         {
-            globalValue += 10;
+            _globalValue += 10;
         }
 
         private void Multiple()
         {
-            globalValue *= 2;
+            _globalValue *= 2;
         }
     }
 }

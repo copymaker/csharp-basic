@@ -48,7 +48,7 @@ namespace RoadBook.CsharpBasic.Chapter02.Examples
             #region >> 만능 변수
             object objValue = 1;
             var vValue = "var";
-            dynamic dValue = true;
+            // dynamic dValue = true;
             #endregion
             
             Console.WriteLine("object 변수 값은 {0}", objValue);

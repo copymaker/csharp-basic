@@ -69,10 +69,10 @@ namespace RoadBook.CsharpBasic.Test.Chapter06
         {
             int[][] gradeOfStudent =
             {
-                new int[] {100, 98, 95},
-                new int[] {90, 100, 100},
-                new int[] {95, 96, 95},
-                new int[] {88, 92, 98}
+                new[] {100, 98, 95},
+                new[] {90, 100, 100},
+                new[] {95, 96, 95},
+                new[] {88, 92, 98}
             };
 
             for (int i = 0; i < gradeOfStudent.Length; i++)

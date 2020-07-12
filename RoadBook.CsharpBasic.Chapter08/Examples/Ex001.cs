@@ -5,11 +5,11 @@ namespace RoadBook.CsharpBasic.Chapter08.Examples
 {
     public class Ex001
     {
-        private readonly string currentDirectory = Environment.CurrentDirectory;
+        private readonly string _currentDirectory = Environment.CurrentDirectory;
 
         public void Run()
         {
-            DirectoryInfo directoryInfo = new DirectoryInfo(currentDirectory + @"\data");
+            DirectoryInfo directoryInfo = new DirectoryInfo(_currentDirectory + @"\data");
             
             if (!directoryInfo.Exists)
             {

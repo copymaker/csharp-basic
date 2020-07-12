@@ -8,10 +8,10 @@ namespace RoadBook.CsharpBasic.Chapter02.Examples
         {
             object objHello = "Hello World";
             var vHello = "Hello World";
-            dynamic dHello = "Hello World";
+            // dynamic dHello = "Hello World";
 
             bool isContainsWord01 = objHello.ToString().Contains("Hello");
-            bool isContainsWord02 = vHello.ToString().Contains("Hello");
+            bool isContainsWord02 = vHello.Contains("Hello");
             // bool isContainsWord03 = dHello.ToString().Contains("Hello");
             
             Console.WriteLine("object 변수에 Hello가 포함되어 있다 ? {0}", isContainsWord01);

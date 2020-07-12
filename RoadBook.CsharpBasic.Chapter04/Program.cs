@@ -1,5 +1,4 @@
-﻿using RoadBook.CsharpBasic.Chapter04.Examples;
-using RoadBook.CsharpBasic.Chapter04.Works;
+﻿using RoadBook.CsharpBasic.Chapter04.Works;
 
 namespace RoadBook.CsharpBasic.Chapter04
 {

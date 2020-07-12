@@ -5,57 +5,57 @@ namespace RoadBook.CsharpBasic.Chapter05.Examples.Service
 {
     public class BoardService
     {
-        private Board board;
+        private Board _board;
 
         public BoardService()
         {
-            board = new Board();
+            _board = new Board();
         }
 
         public BoardService(Board board)
         {
-            this.board = board;
+            this._board = board;
         }
 
         public void Save(int number, string title, string content, string writer)
         {
-            board.Number = number;
-            board.Title = title;
-            board.Content = content;
-            board.Writer = writer;
-            board.CreateDate = DateTime.Now;
-            board.UpdateDate = DateTime.Now;
+            _board.Number = number;
+            _board.Title = title;
+            _board.Content = content;
+            _board.Writer = writer;
+            _board.CreateDate = DateTime.Now;
+            _board.UpdateDate = DateTime.Now;
             
             Console.WriteLine("게시물이 저장되었습니다.");
         }
 
         public void Update(string title, string content, string writer)
         {
-            board.Title = title;
-            board.Content = content;
-            board.Writer = writer;
-            board.UpdateDate = DateTime.Now;
+            _board.Title = title;
+            _board.Content = content;
+            _board.Writer = writer;
+            _board.UpdateDate = DateTime.Now;
             
             Console.WriteLine("게시물이 수정되었습니다.");
         }
 
         public void Delete()
         {
-            board = null;
+            _board = null;
             
             Console.WriteLine("게시물이 삭제되었습니다.");
         }
 
         public void Read()
         {
-            if (board != null)
+            if (_board != null)
             {
-                Console.WriteLine("{0}번 게시물", board.Number);
-                Console.WriteLine("제목 : {0}", board.Title);
-                Console.WriteLine("작성일 : {0}", board.CreateDate);
-                Console.WriteLine("수정일 : {0}", board.UpdateDate);
-                Console.WriteLine("글쓴이 : {0}", board.Writer);
-                Console.WriteLine("내용 : {0}", board.Content);
+                Console.WriteLine("{0}번 게시물", _board.Number);
+                Console.WriteLine("제목 : {0}", _board.Title);
+                Console.WriteLine("작성일 : {0}", _board.CreateDate);
+                Console.WriteLine("수정일 : {0}", _board.UpdateDate);
+                Console.WriteLine("글쓴이 : {0}", _board.Writer);
+                Console.WriteLine("내용 : {0}", _board.Content);
             }
             else
             {

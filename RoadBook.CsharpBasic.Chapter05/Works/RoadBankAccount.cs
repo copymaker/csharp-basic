@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RoadBook.CsharpBasic.Chapter05.Works
+﻿namespace RoadBook.CsharpBasic.Chapter05.Works
 {
     public class RoadBankAccount
     {
