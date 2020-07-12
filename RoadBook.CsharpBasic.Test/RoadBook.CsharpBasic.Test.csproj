@@ -43,7 +43,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Chapter05\BoardTests.cs" />
+        <Compile Include="Chapter05\CalculatorTests.cs" />
         <Compile Include="Chapter05\CarTests.cs" />
+        <Compile Include="Chapter05\RoadBankTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

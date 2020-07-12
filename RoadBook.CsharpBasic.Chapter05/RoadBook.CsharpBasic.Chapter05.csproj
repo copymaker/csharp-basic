@@ -45,6 +45,9 @@
         <Compile Include="Examples\Service\BoardService.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Works\RoadBankAccount.cs" />
+        <Compile Include="Works\Calculator.cs" />
+        <Compile Include="Works\RoadBankService.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
